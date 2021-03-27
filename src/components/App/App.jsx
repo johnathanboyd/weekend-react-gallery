@@ -1,7 +1,8 @@
 import { useState, useEffect } from 'react';
-import Axios from 'axios';
+import axios from 'axios';
 import React from 'react';
 import './App.css';
+import GalleryList from '../GalleryList/GalleryList'
 
 function App() {
 
@@ -15,7 +16,7 @@ function App() {
 
   let getGallery=()=>{
     console.log('in getGallery' );
-    Axios.get( '/gallery').then( ( response )=>{
+    axios.get( '/gallery').then( ( response )=>{
       console.log( 'back from GET with:', response );
       setGallery( response.data );
     }).catch( ( err )=> {
@@ -30,6 +31,7 @@ function App() {
           <h1 className="App-title">Gallery of My Life</h1>
         </header>
         <p>Gallery goes here</p>
+        <GalleryList />
         <img src="images/goat_small.jpg"/>
       </div>
     );
