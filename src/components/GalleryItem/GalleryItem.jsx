@@ -5,6 +5,7 @@ function GalleryItem(props){
 
     const[showImage, setShowImage ] = useState( false );
 
+
     let displayImage = () =>{
         let display = <img className="image" onClick = {togglePost} src={props.image.path}></img>
           if ( showImage) {
@@ -20,8 +21,8 @@ function GalleryItem(props){
         <>
           <div className="post">
             {displayImage()}  
-            <button>Like</button>
-            <p> people have liked this.</p>
+            <button onClick={ () => props.addLike(props.image.id)} id={props.image.id} >Like</button>
+            <p>{props.image.likes} people have liked this.</p>
           </div>
         </>
     )

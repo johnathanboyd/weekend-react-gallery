@@ -13,6 +13,16 @@ function App() {
     getGallery();
   }, []);
 
+  let addLike=(image)=>{
+    console.log('in addLike' );
+    axios.put( '/gallery/like/' + image).then( 
+      response =>{
+        getGallery();
+      }).catch( ( err )=> {
+      console.log( err );
+      alert( 'err' );
+    })
+  }
 
   let getGallery=()=>{
     console.log('in getGallery' );
@@ -31,7 +41,7 @@ function App() {
           <h1 className="App-title">Gallery of My Life</h1>
         </header>
         <div className="gallery">
-        <GalleryList galleries={gallery} />
+        <GalleryList galleries={gallery} addLike={addLike} />
         </div>
       </div>
     );
