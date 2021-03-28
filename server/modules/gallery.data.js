@@ -1,32 +1,32 @@
 const galleryItems = [
   {
     id: 1,
-    path: 'images/goat_small.jpg',
-    description: 'Photo of a goat taken at Glacier National Park.',
+    path: 'images/me-1.jpg',
+    description: 'Photo of me taken in the Galliuros Mountains, AZ.',
     likes: 0,
   },
   {
     id: 2,
-    path: '/images/venus_mars_jupiter.png',
-    description: `The evening view from my home in Colorado. Venus is the bright star in the middle of the photo. Mars is the lower bright star to the left (10 o'clock position). Jupiter is the bright star just above Mars.`,
+    path: 'images/me-2.jpg',
+    description: `Taking photos on a fixed line in Cochise Stronghold, AZ`,
     likes: 4,
   },
   {
     id: 3,
-    path: 'images/firey_sunset.jpg',
-    description: `A beautiful sunset taken from my porch at my house in Colorado.`,
+    path: 'images/me-3.jpg',
+    description: `Photo of me taking a photo at Grand Teton National Park.`,
     likes: 2,
   },
   {
     id: 4,
-    path: 'images/max.jpg',
-    description: 'My first dog, Max.',
+    path: 'images/me-4.jpg',
+    description: 'Baby me with my siblings, Korbin & Ian with our auntie Ravven.',
     likes: 0,
   },
   {
     id: 5,
-    path: 'images/saint_chappell.jpg',
-    description: 'Interior and Rose of Sain Chappell in Paris, France.',
+    path: 'images/me-5.jpg',
+    description: 'Holding Lily like the baby-dog that she is!',
     likes: 0,
   },
   {
@@ -54,6 +54,7 @@ const galleryItems = [
     description: 'Rodin sculpture, Musee Rodin, Paris, France.',
     likes: 0,
   },
+  /*
   {
     id: 10,
     path: 'images/rodin_woman.jpg',
@@ -189,7 +190,7 @@ const galleryItems = [
 { id: 73, path: 'images/trim_castle_side.jpg', description: 'Trime Castle in Ireland.', likes: 0 },
 { id: 74, path: 'images/vet_services_pigeons.jpg', description: 'Vet services sign for your cow, dog, or pigeon.', likes: 0 },
 { id: 75, path: 'images/wheeler_lake.jpg', description: 'Snow fed mountain lake, Wheeler Lake, near Alma and Leadville, Colorado. The lake is at 12K ft elevation.', likes: 0 },
-
+*/
 ];
 
 module.exports = galleryItems;

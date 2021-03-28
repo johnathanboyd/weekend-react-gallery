@@ -38,7 +38,8 @@ function App() {
     return (
       <div className="App">
         <header className="App-header">
-          <h1 className="App-title">Gallery of My Life</h1>
+          <h1 className="App-title">Creamsicle-gram</h1>
+          <h3 className="App-sub-title"><em>"an app for your memories & nostalgia"</em></h3>
         </header>
         <div className="gallery">
         <GalleryList galleries={gallery} addLike={addLike} />

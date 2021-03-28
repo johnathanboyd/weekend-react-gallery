@@ -4,6 +4,7 @@
     object-fit: cover;
     margin-bottom: 10px;
     justify-self: center;
+    border-radius: 7px;
    
 }
 
@@ -16,15 +17,24 @@
     object-fit: cover;
     justify-self: center;
     margin-bottom: 10px;
+    display: inline-grid;
 }
 
 button {
     width: 75px;
     margin-top: 5px;
     justify-self: center;
+    color: white;
+    background-color: #FACCAD;
+    border: none;
+    padding: 10px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
 }
 
 .post {
     display: inline-grid;
     margin: 5px;
+    background-color: white;
+    padding: 10px;
 }
