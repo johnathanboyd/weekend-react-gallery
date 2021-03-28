@@ -1,4 +1,4 @@
-img {
+.image {
     height: 200px;
     width: 200px;
     object-fit: cover;
@@ -13,7 +13,7 @@ button {
     justify-self: center;
 }
 
-.image {
+.post {
     display: inline-grid;
     margin: 5px;
 }
