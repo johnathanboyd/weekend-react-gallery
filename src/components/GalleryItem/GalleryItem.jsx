@@ -6,14 +6,16 @@ function GalleryItem(props){
     const[showImage, setShowImage ] = useState( false );
 
     let displayImage = () =>{
-        let display = <img className="image" src={props.image.path}></img>
-        if ( showImage) {
-            display = <div className="description" onClick = {tocggleContent}><p>{ props.image.description}</p></div>
+        let display = <img className="image" onClick = {togglePost} src={props.image.path}></img>
+          if ( showImage) {
+            display = <div className="description" onClick = {togglePost}><p>{ props.image.description}</p></div>
         }
         return display
     }
 
-    let toggleContent
+    let togglePost = () =>{
+        setShowImage( !showImage );
+    }
     return(
         <>
           <div className="post">

@@ -7,6 +7,17 @@
    
 }
 
+.description {
+    word-wrap: normal;
+    height: 200px;
+    width: 200px;
+    background-color: grey;
+    color: white;
+    object-fit: cover;
+    justify-self: center;
+    margin-bottom: 10px;
+}
+
 button {
     width: 75px;
     margin-top: 5px;
