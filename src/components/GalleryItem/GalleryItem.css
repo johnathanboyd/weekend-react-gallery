@@ -1,8 +1,16 @@
 img {
-    height: 150px;
-    width: 150px;
+    height: 200px;
+    width: 200px;
     object-fit: cover;
+    margin-bottom: 10px;
+    justify-self: center;
    
+}
+
+button {
+    width: 75px;
+    margin-top: 5px;
+    justify-self: center;
 }
 
 .image {

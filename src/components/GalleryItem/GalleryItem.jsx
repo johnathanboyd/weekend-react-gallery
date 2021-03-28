@@ -6,7 +6,7 @@ function GalleryItem(props){
           <div className="image">
             <img src={props.image.path}></img>
             <button>Like</button>
-            <p>:People Have Liked This</p>
+            <p> people have liked this.</p>
           </div>
         </>
     )
