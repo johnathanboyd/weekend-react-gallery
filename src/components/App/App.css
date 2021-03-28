@@ -1,3 +1,13 @@
+@font-face {
+  src: url('./font/Fredoka_One/FredokaOne-Regular.ttf');
+  font-family: fredoka;
+}
+
+@font-face {
+  src: url('./font/Pacifico/Pacifico-Regular.ttf'); 
+  font-family: pacifico ;
+}
+
 .App {
   text-align: center;
 }
@@ -7,13 +17,18 @@
   padding: 2em;
   color: white;
   margin-bottom: 1em;
-  font-family: creamsicle;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  margin: .5em;
 }
 
 .App-title {
+  font-family: fredoka;
   font-size: 4em;
 }
-
+.App-sub-title {
+  font-family: pacifico;
+}
 .gallery {
   display: inline-grid;
   background-color: #FCFAF1;

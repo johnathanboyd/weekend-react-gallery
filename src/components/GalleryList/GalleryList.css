@@ -1,0 +1,8 @@
+@font-face {
+    src: url('./font/Pacifico/Pacifico-Regular.ttf'); 
+    font-family: pacifico ;
+  }
+
+.subTitle {
+    font-family: pacifico;
+}
