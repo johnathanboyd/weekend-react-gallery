@@ -1,8 +1,14 @@
-function GalleryItem(){
+import './GalleryItem.css';
+
+function GalleryItem(props){
     return(
-        <div>
-            <p>Git GUD!</p>
-        </div>
+        <>
+          <div className="image">
+            <img src={props.image.path}></img>
+            <button>Like</button>
+            <p>:People Have Liked This</p>
+          </div>
+        </>
     )
 }
 
